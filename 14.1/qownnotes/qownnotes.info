@@ -1,0 +1,10 @@
+PRGNAM="qownnotes"
+VERSION="16.06.10"
+HOMEPAGE="http://www.qownnotes.org/"
+DOWNLOAD=""http://downloads.sourceforge.net/project/qownnotes/src/qownnotes-16.06.10.tar.xz
+MD5SUM="abaf8ca8504d9d57d128ae793084d96e"
+DOWNLOAD_x86_64=""
+MD5SUM_x86_64=""
+REQUIRES="qt5"
+MAINTAINER="Patrizio Bekerle"
+EMAIL="patrizio@bekerle.com"
