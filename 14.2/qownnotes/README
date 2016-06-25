@@ -1,0 +1,17 @@
+QOwnNotes (notepad with markdown support and ownCloud integration)
+
+QOwnNotes is the open source (GPL) plain-text file notepad with markdown
+support and todo list manager for GNU/Linux, Mac OS X and Windows,
+that (optionally) works together with the notes application of ownCloud.
+
+- You own your own notes! All notes are stored as plain-text files
+  on your desktop computer.
+
+- Sync them over devices (desktop & mobile) with your ownCloud
+  sync client.
+
+- Use ownCloud Notes to edit your notes in the web.
+
+Homepage: http://www.qownnotes.org/
+Author:   Patrizio Bekerle <patrizio@bekerle.com>
+
