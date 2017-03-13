@@ -1,7 +1,7 @@
 #!/bin/sh
 
-# src for version 17.03.3
-wget "http://downloads.sourceforge.net/project/qownnotes/src/qownnotes-17.03.3.tar.xz"
+# src for version 17.03.4
+wget "http://downloads.sourceforge.net/project/qownnotes/src/qownnotes-17.03.4.tar.xz"
 
 # run the build script
 ./qownnotes.SlackBuild
