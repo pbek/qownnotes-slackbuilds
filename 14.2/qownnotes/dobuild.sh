@@ -1,7 +1,7 @@
 #!/bin/sh
 
-# src for version 19.9.12
-wget "https://download.tuxfamily.org/qownnotes/src/qownnotes-19.9.12.tar.xz"
+# src for version 19.9.13
+wget "https://download.tuxfamily.org/qownnotes/src/qownnotes-19.9.13.tar.xz"
 
 # run the build script
 ./qownnotes.SlackBuild
