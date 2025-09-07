@@ -77,11 +77,16 @@ find -L . \
 # Set the release string to disable the update check
 echo '#define RELEASE "SlackBuild"' > release.h
 
-qmake-qt5
+mkdir build
 CFLAGS="$SLKCFLAGS" \
 CXXFLAGS="$SLKCFLAGS" \
-  make
-make INSTALL_ROOT=$PKG install
+cmake \
+  -DCMAKE_INSTALL_PREFIX=/usr \
+  -DBUILD_WITH_ASPELL=ON \
+  -DCMAKE_BUILD_TYPE=Release \
+  -B build
+cmake --build build
+DESTDIR=$PKG cmake --install build
 
 find $PKG -print0 | xargs -0 file | grep -e "executable" -e "shared object" | grep ELF \
   | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null || true
