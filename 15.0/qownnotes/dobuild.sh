@@ -1,7 +1,7 @@
 #!/bin/sh
 
-# src for version 26.5.4
-wget "https://github.com/pbek/QOwnNotes/releases/download/v26.5.4/qownnotes-26.5.4.tar.xz"
+# src for version 26.5.5
+wget "https://github.com/pbek/QOwnNotes/releases/download/v26.5.5/qownnotes-26.5.5.tar.xz"
 
 # run the build script
 ./qownnotes.SlackBuild
